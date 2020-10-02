@@ -1,6 +1,6 @@
 {
   "name": "static-site-image-width-height-enricher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "src/enrichImageWidthsAndHeights.js",
   "bin": "bin/static-site-image-width-height-enricher",
