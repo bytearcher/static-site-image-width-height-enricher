@@ -74,4 +74,9 @@ describe("image width height enricher", () => {
       expect(getImageAttributesFor("file.png").height).toBe(2);
     });
   });
+
+  test("handles multi-line tags", async () => {
+    expect(getImageAttributesFor("multi-line").width).toBe(1);
+    expect(getImageAttributesFor("multi-line").height).toBe(2);
+  });
 });
