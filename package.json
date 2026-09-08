@@ -17,7 +17,7 @@
   "repository": "github:bytearcher/static-site-image-width-height-enricher",
   "dependencies": {
     "glob": "7.1.6",
-    "image-size": "0.9.1"
+    "image-size-next": "2.1.0"
   },
   "devDependencies": {
     "@bytearcher/eslint-config-node": "github:bytearcher/eslint-config-node",
